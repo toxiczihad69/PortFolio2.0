@@ -1,0 +1,632 @@
+/*responsive css file*/
+
+/* Desktop Display : 1025px-1200px. */
+
+@media  (min-width: 1025px) and (max-width: 1200px){
+    
+    
+    
+    
+    .container {
+        width: 980px;
+        margin: auto;
+    }
+    .bar {
+        padding: 2px 0px 2px 3px;
+        margin-left: 9px;
+        margin-top: 14px;
+        font-size: 10px;
+    }
+    .menu ul li {
+        padding: 5px 7px 15px;
+    }
+    .menu ul li a {
+        font-size: 18px;
+    }
+    .menu {
+        float: right;
+        margin-top: 25px;
+    }
+    .search-btn {
+        padding: 2px 7px;
+    }
+    .logo-section {
+        float: left;
+        padding-top: 5px;
+        width: 23%;
+    }
+    .logo-section a {
+        font-size: 41px;
+    }
+
+
+    /* Home Section */
+
+    .home-section{
+        height: 600px;
+
+    }
+    .overlay{
+       height:  600px;
+    }
+
+    .home-content h3 {
+        font-size: 37px;
+    }
+    .home-content h1 {
+        font-size: 75px;
+    }
+
+
+    .home-content p {
+        font-size: 19px;
+    }
+    .home-content a {
+        padding: 10px 13px;
+    }
+
+/* About Section */
+
+.about-content h2 {
+	padding: 30px 0px;
+	font-size: 30px;
+}
+
+.fa.fa-id-card-o {
+	font-size: 50px;
+	padding: 10px;
+}
+.about-content-one h3 {
+	font-size: 28px;
+}
+
+.about-content-one p {
+	font-size: 20px;
+}
+
+.fa.fa-check-circle {
+	font-size: 55px;
+	padding: 10px;
+}
+
+.about-content-two h3{
+    font-size: 28px;
+}
+
+.about-content-two p {
+	font-size: 20px;
+	line-height: 36px;
+}
+
+.fa.fa-graduation-cap {
+    font-size: 55px;
+	padding: 10px;
+}
+
+.about-content-three h3{
+    font-size: 28px;
+}
+
+
+
+.about-content-three ul li {
+	font-size: 22px;
+	line-height: 41px;
+}
+
+/* Services section */
+.services-content {
+	padding: 15px 0px;
+}
+.services-content h2 {
+	padding: 35px 0px;
+	font-size: 30px;
+}
+
+
+.services-one {
+	padding: 10px 5px;
+}
+
+#html-logo img {
+	width: 160px;
+	margin: 15px;
+}
+
+
+.services-two {
+    padding: 10px 5px;
+}
+
+#css-logo img {
+	width: 160px;
+	margin: 20px;
+}
+
+.services-three{
+    padding: 10px 5px;
+}
+
+#javascript-logo img {
+	width: 160px;
+	margin: 15px;
+}
+
+
+/*UIUX Content*/
+
+.uiux-content h2{
+    
+	padding: 35px 0px;
+	font-size: 30px;
+}
+.uiux-uiux p {
+	font-size: 18px;
+}
+.uiux-responsive p {
+	text-align: left;
+	font-size: 11px;
+	padding: 10px;
+	line-height: 23px;
+}
+
+/* Team */
+.zamiul p {
+	line-height: 39px;
+}
+
+
+/* Contact */
+
+.contact-content h2 {
+	padding: 15px 0px 45px;
+	font-size: 30px;
+}
+
+
+#map {
+	width: 100%;
+	height: 320px;
+}
+
+/*Footer*/
+.footer {
+	height: 140px;
+}
+
+.footer-text {
+	padding-top: 16px;
+}
+
+
+
+
+}
+
+
+/* Laptop and Small Screen : 769px-1024px. */
+
+@media (min-width: 769px) and (max-width: 1024px){}
+
+/* Small device Tablet/ Ipad : 481px-768px. */
+
+@media  (min-width: 481px) and (max-width: 768px){}
+
+/* Mobile Devices : 320px-480px. */
+
+@media (min-width: 383px) and (max-width: 480px){
+
+    .container {
+        width: 330px;
+    }
+/* Nav*/
+
+
+.logo-section a {
+	font-size: 27px;
+}
+.search {
+	width: 73%;
+}
+.bar {
+    padding: 2px 0px 3px 5px;
+    margin-left: 0px;
+    margin-top: 14px;
+    font-size: 10px;
+}
+
+.menu {
+	width: 100%;
+}
+.search-btn {
+	font-size: 8px;
+	margin: 0;
+}
+.menu ul {
+	padding: 0px 25px;
+}
+.menu ul li {
+	padding: 10px 7px 14px;
+}
+
+    .menu ul li a {
+        font-size: 14px;
+    }
+
+/* Home Content */
+
+.home-section {
+	height: 650px;
+}
+.overlay {
+	height: 650px;
+}
+.home-content {
+	padding-top: 200px;
+}
+.home-content h3 {
+	font-size: 20px;
+}
+.home-content h1 {
+	font-size: 45px;
+}
+
+.home-content p {
+	width: 82%;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+.home-content a {
+	float: left;
+	padding: 9px 6px;
+	margin: 10px 0px;
+	font-size: 10px;
+}
+
+/* About */
+.about-section {
+	height: auto;
+	padding-bottom: 20px;
+}
+.about-content h2 {
+	padding: 20px 0px;
+	font-size: 20px;
+}
+.about-content-one {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.fa.fa-id-card-o {
+	font-size: 49px;
+}
+
+.about-content-one h3 {
+	font-size: 25px;
+}
+.about-content-one p {
+	padding: 15px;
+	font-size: 15px;
+}
+
+.about-content-two {
+	width: 100%;
+	margin-bottom: 15px;
+}
+.fa.fa-check-circle {
+	font-size: 57px;
+}
+.about-content-two h3 {
+	font-size: 25px;
+}
+.about-content-two p {
+	text-align: center;
+	padding: 15px;
+	font-size: 15px;
+}
+
+.about-content-three {
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.fa.fa-graduation-cap {
+	font-size: 49px;
+}
+.about-content-three h3 {
+	font-size: 25px;
+}
+
+    .about-content-three ul li{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    /* Services */
+    .services-section {
+        height: auto;
+    }
+    .services-overlay {
+        padding-bottom: 940px;
+    }
+
+    .services-content h2 {
+        padding: 20px 0px 30px;
+        font-size: 20px;
+    }
+
+    .services-one {
+        padding: 0;
+        width: 100%;
+    }
+    #html-logo {
+        width: 20%;
+        padding: 20px 10px;
+    }
+    #html-logo img {
+        width: 65px;
+    }
+    #html-p {
+        width: 90%;
+    }
+    #html-p p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .services-two {
+        padding: 0;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #css-logo {
+        width: 20%;
+        padding: 20px 10px;
+    }
+    #css-logo img {
+        width: 65px;
+    }
+    #css-p {
+        width: 90%;
+    }
+    #css-p p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .services-three {
+        padding: 0;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    #javascript-logo {
+        width: 30%;
+        padding: 10px;
+    }
+
+    #javascript-logo img {
+        width: 65px;
+    }
+    #javascript-p {
+        width: 90%;
+    }
+
+    #javascript-p p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+/* uxui */
+.uiux{
+    height: auto;
+    padding: 20px 0;
+}
+.uiux-content {
+	padding: 10px 0px;
+	height: auto;
+}
+.uiux-content h2 {
+	padding: 20px 0px 30px;
+	font-size: 17px;
+}
+.uiux-img {
+	width: 0%;
+}
+.uiux-img img {
+	width: 300px;
+	height: 219px;
+}
+
+.uiux-uiux {
+	width: 45%;
+    padding: 3px;
+    margin-left: 6px;
+}
+
+.uiux-uiux img {
+	width: 60px;
+}
+.uiux-uiux p {
+    text-align: left;
+	font-size: 12px;
+	padding: 10px;
+}
+
+.uiux-responsive {
+	width: 45%;
+    padding: 3px;
+    margin-left: 3px;
+}
+
+
+.uiux-responsive img {
+	width: 60px;
+}
+
+.uiux-responsive p {
+	text-align: left;
+	font-size: 12px;
+	padding: 10px;
+	line-height: 21px;
+}
+
+/* Team Section */
+
+.team-section {
+	height: auto;
+}
+.team-overlay {
+	height: 680px;
+}
+.team-content h2 {  
+    padding:  30px 0;
+   font-size: 18px;
+}
+
+
+.zihad {
+	width: 45%;
+	margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.zihad img {
+	width: 100px;
+	margin-top: 15px;
+}
+
+.zihad p {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.shakib {
+	width: 45%;
+	margin-right: 0;
+}
+
+.shakib img {
+	width: 100px;
+	margin-top: 15px;
+	height: 100px;
+}
+
+
+.shakib p {
+	font-size: 12px;
+	line-height: 17px;
+}
+
+.kais {
+	width: 45%;
+	margin-right: 20px;
+}
+
+.kais img {
+	width: 100px;
+	margin-top: 15px;
+	height: 100px;
+}
+
+.kais p {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.zamiul {
+	width: 45%;
+	margin-right: 0;
+}
+
+.zamiul img {
+	width: 100px;
+	margin-top: 15px;
+	height: 100px;
+}
+
+.zamiul p {
+	font-size: 14px;
+	line-height: 28px;
+}
+
+
+
+/* Contact Form */
+.contact-content {
+    padding: 0;
+}
+.contact-section {
+	height: 730px;
+}
+.contact-content h2 {
+    padding: 30px 0px 30px;
+   font-size: 18px;
+}
+.contact-form {
+	width: 100%;
+	float: left;
+    margin: 10px 0;
+}
+
+
+.contact-form input {
+	width: 80%;
+	font-size: 12px;
+	padding-left: 6px;
+}
+
+.contact-form textarea {
+	width: 79%;
+	font-size: 12px;
+	padding-left: 5px;
+}
+.contact-form button {
+	font-size: 11px;
+	padding: 3px 11px;
+	margin: 5px 5px;
+}
+.contact-map {
+	width: 100%;
+	float: right;
+}
+
+#map {
+	width: 100%;
+	height: 300px;
+	
+}
+
+/* Footer */
+.footer-text {
+	padding-top: 15px;
+}
+.footer-text h3 {
+	font-size: 16px;
+}
+
+.footer-text h4 {
+	font-size: 11px;
+}
+
+.footer-logo ul {
+	padding: 0;
+}
+.footer {
+	height: 137px;
+}
+
+
+
+
+
+
+
+
+
+
+} 
+    
+
